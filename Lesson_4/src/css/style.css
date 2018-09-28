@@ -1,0 +1,106 @@
+body {
+	font-family: "Arial MT", sans-serif;
+	font-size: 15px;
+	background-image: url(../img/bg-main.png);
+}
+.visit-card {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-505px;
+	margin-top:-251.5px;
+	box-sizing: border-box;
+	width: 1010px;
+	height: 503px;
+	border: 1px solid #d7d7d7;
+	background-color: #ffffff;
+}
+img {
+	top: 64px;
+	left: 48px;
+}
+.context {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+h2 	{
+	margin-top: 94px;
+	margin-bottom: 0;
+}
+.text {
+	margin-top: 30px;
+	margin-bottom: 0;
+	width: 393px;
+}
+.price-title {
+	margin-top: 55px;
+	margin-bottom: 0;
+}
+.price {
+	margin-top: 23px;
+	margin-bottom: 0;
+	font-size: 30px;
+}
+.btn {
+	margin-top: 56px;
+	width: 252px;
+	height: 50px;
+	background-color: #ec744a;
+	color: #ffffff;
+	font-size: 19px;
+	border: none;
+	outline: none;
+}
+.btn:hover {
+	cursor: pointer;
+}
+.btn:active {
+	border: none;
+	outline: none;
+}
+
+
+@font-face {
+	font-family: "Arial MT";
+	src: url("../fonts/ARIALMT.ttf");
+	font-style: normal; 
+	font-weight: normal;
+}
+
+@media (max-width: 992px) {
+	.visit-card {
+		position: static;
+		width: 90%;
+		height: auto;
+		margin: auto;
+		top: 10px;
+		left: 10px;
+		padding-left: 10px;
+		text-align: center;
+	}
+	img {
+		position: static;
+		top: 0;
+		margin-top: 10px;
+	}
+	.text {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 25px;
+	}
+	h2 	{
+		margin-top: 94px;
+	}
+	.price-title {
+		margin-bottom: 10px;
+	}
+	.price {
+		margin-bottom: 25px;
+	}
+	.btn {
+		margin-bottom: 20px;
+	}
+}
+
+

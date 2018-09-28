@@ -1,0 +1,28 @@
+body {
+	background-image: url("../img/bg-main.jpg");
+}
+h1 {
+	border-bottom: 1px solid black;
+}
+p:not(.prologue) {
+	color: #009933;
+}
+.subtitle {
+	text-align: center;
+	background-color: #ffecb3;
+}
+.subtitle:not(h1) {
+	color: blue;
+}
+.italic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+.strike {
+	text-decoration: line-through;
+}
+.fat {
+	font-weight: bold;
+}

@@ -1,0 +1,144 @@
+body {
+	font-family: Tahoma;
+}
+button:focus {
+	outline: none;
+}
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.header {
+	padding-top: 77px;
+	padding-bottom: 96px;
+}
+.header-img {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+}
+.header-text {
+	display: inline-block;
+	width: 54%;
+	vertical-align: middle;
+}
+.header-text__title {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.header-text__subtitle {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+.header-text__descr {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	max-width: 530px;
+	margin-bottom: 47px;
+}
+.header-text__price {
+	margin-bottom: 52px;
+	color: #313131; 
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.button {
+	border-radius: 5px;
+	border-color: #f05a22;
+	background-color: #f05a22;
+	font-size: 24px;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 22px 43px;
+}
+.button-o {
+	margin-left: 40px;
+	color: #f05a22;
+	background-color: transparent;
+	border: 2px solid #f05a22;
+}
+.section-title {
+	margin-bottom: 97px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+}
+.features {
+	padding-top: 90px;
+	padding-bottom: 99px;
+	background-color: #f2f2f2;
+	color: #333333;
+}
+
+.features-wrap::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.features-block {
+	display: inline-block;	
+	text-align: center;
+	width: 25%;
+	float: left; 
+}
+.features-block__img {
+	min-height: 50px;
+	margin-bottom: 23px;
+}
+.features-block__text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+/* -----footer-----*/
+.footer-title{
+	margin-top: 89px;
+	margin-bottom: 69px;
+	text-align: center;
+	color: #333333;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+}
+.footer-photos{
+	padding-bottom: 111px;
+}
+.photo1 {
+	background: url("../img/footer/poshlye06.jpg");
+}
+.photo2 {
+	background: url("../img/footer/foto2.jpg");
+}
+.photo3 {
+	background: url("../img/footer/foto3.jpg");
+}
+.photo4 {
+	background: url("../img/footer/foto4.jpg");
+}
+.photo5 {
+	background: url("../img/footer/foto5.jpg");
+}
+.photo6 {
+	background: url("../img/footer/foto6.jpg");
+}
+.photo7 {
+	background: url("../img/footer/foto7.jpg");
+}
+.photo8 {
+	background: url("../img/footer/foto8.jpg");
+}
+.photo {
+	display: inline-block;
+	width: 261px;
+	height: 261px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-right: 20px;	
+	margin-top: 40px;
+}
